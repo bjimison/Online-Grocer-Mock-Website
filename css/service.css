@@ -1,0 +1,174 @@
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Noticia Text', serif;
+}
+
+body {
+  background: #E6E6E6;
+}
+
+header {
+  background: url('../images/nav.jpg');
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #BFBFBF;
+  align-content: center;
+  font-size: 1.7em;
+}
+
+/*.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}*/
+
+#myNavBar {
+  overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .container  {
+  padding-top: 60px;
+}
+
+.content {
+  padding: 90px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login span {
+  margin: 0 1em;
+  display: flex;
+  align-content: center;
+}
+
+.login a {
+  display: flex;
+  align-content: center;
+}
+
+span a {
+  color: #BFBFBF;
+  align-self: center;
+}
+
+header .login {
+  /*margin: 1em 0;*/
+  display: flex;
+  align-content: center;
+}
+
+header .grocer {
+  display: flex;
+  align-content: center;
+}
+
+
+header #logo {
+  align-self: center;
+}
+
+.login span a {
+  font-size: 1.2em;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  color: #BFBFBF;
+}
+
+i.fas.fa-lemon {
+  display: flex;
+  align-self: center;
+}
+
+a h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+form h4 {
+  text-align: center;
+  font-size: 1.6em;
+  opacity: 0.7;
+}
+
+form {
+  margin-bottom: 1.3em;
+}
+
+form button {
+  width: 100%;
+  border: 0.1em solid #44545E;
+  margin-top: 0.1em;
+}
+
+textarea {
+  width: 100%;
+  border: 0.1em solid #44545E;
+  display: block;
+}
+
+.comments {
+  display: flex;
+  flex-direction: row;
+}
+
+.question {
+  max-width: 48em;
+  display: flex;
+  flex-direction: column;
+  margin: 1.3em 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.two_inputs {
+  align-self: center;
+  width: 100%;
+  text-align: center;
+}
+
+form h4 {
+  justify-content: center;
+}
+
+form.question {
+  margin: 1.3em auto;
+}
+
+.question > input {
+  display: flex;
+  flex-direction: row;
+}
+
+
+div.two_inputs {
+  width: 100%;
+  display: flex;
+  /*flex-direction: space-between;*/
+}
+
+.two_inputs input {
+  width: 50%;
+}
+
+.top {
+  /*flex-direction: row;*/
+  /*width: 49%;*/
+  border: 0.1em solid #44545E;
+  margin: 0.2em 0 0.2em 0;
+}

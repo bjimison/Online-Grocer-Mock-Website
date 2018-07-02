@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vegan</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/foods.css">
+    <link rel="stylesheet" href="css/about.css">
+  </head>
+
+  <body>
+    <header id="myNavBar" class="sticky">
+    <nav class="hamburger">
+      <!-- <i class="fa fa-bars"></i> -->
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About Us</a>
+      <a href="./service.html">Customer Service</a>
+    </nav>
+
+    <div class="grocer">
+        <a id="logo" href=""><i class="fas fa-lemon"></i><h3>eGrocer</h3></a>
+    </div>
+
+    <div class="login">
+        <span><a href="">Sign Up</a></span>
+        <span><a href="">Login</a></span>
+    </div>
+  </header>
+
+  <main class="content">
+    <div id="flex">
+      <div id="groundBeef" class="foodPictures">
+          <img src="images/groundBeef.jpg" alt="">
+          <button id="groundBeef-btn">Add</button>
+       </div>
+
+      <div id="steak" class="foodPictures">
+          <img src="images/steak.jpg" alt="">
+          <button id="steak-btn">Add</button>
+      </div>
+
+      <div id="ham" class="foodPictures">
+          <img src="images/ham.jpg" alt="">
+          <button id="ham-btn">Add</button>
+      </div>
+    </div>
+
+    <aside class="right">
+          <h3>Shopping Cart</h3>
+          <a href="">view cart</a>
+            <ul id="cartList">
+              <h5>Your Items</h5>
+            </ul>
+          <h4 id="display-total">Total</h4>
+    </aside>
+  </main>
+
+  <footer>
+      <form id="contact_us"action="">
+        <input type="email" placeholder="Email Address">
+        <input class="hover_too" type="button" value="Contact Us">
+      </form>
+        <div class="copyright">
+          &Copy; 2018 Brady Jimison
+        </div>
+  </footer>
+  <script type="text/javascript" src="meats.js"></script>
+</body>
+</html>

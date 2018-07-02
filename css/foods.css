@@ -1,0 +1,190 @@
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Noticia Text', serif;
+}
+
+/*.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}*/
+
+aside.right {
+  /*align-self: flex-end;*/
+  width: 20rem;
+  margin: 10rem 5rem 10rem 5rem;
+
+}
+
+.content {
+  padding: 90px;
+}
+
+#myNavBar {
+  overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .container  {
+  padding-top: 60px;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#flex div {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+button {
+  max-height: 2rem;
+  align-self: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: #BFBFBF;
+}
+
+.login span {
+  margin: 0 1em;
+  display: flex;
+  align-content: center;
+}
+
+.login a {
+  display: flex;
+  align-content: center;
+}
+
+span a {
+  color: #BFBFBF;
+  align-self: center;
+}
+
+header .login {
+  /*margin: 1em 0;*/
+  display: flex;
+  align-content: center;
+}
+
+header .grocer {
+  display: flex;
+  align-content: center;
+}
+
+
+header #logo {
+  align-self: center;
+}
+
+.login span a {
+  font-size: 1.2em;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  color: #BFBFBF;
+}
+
+i.fas.fa-lemon {
+  display: flex;
+  align-self: center;
+}
+
+a h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+header {
+  background: url('../images/nav.jpg');
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #BFBFBF;
+  align-content: center;
+  font-size: 1.7em;
+}
+
+.hamburger {
+  margin: 1em 0 1em 1em;
+  top: 1em;
+  left: 1em;
+  font-size: 1.2em;
+}
+
+
+
+footer {
+  background-color: white;
+  /*background: url('../images/nav.jpg');*/
+  width: 100%;
+  color: #BFBFBF;
+  text-align: center;
+  padding: 0.6em;
+  margin: 0;
+  min-height: 7em;
+  padding: 2em 0;
+}
+
+footer form input:nth-of-type(2) {
+  border: 0.1em solid black;
+  background-color: white;
+}
+
+footer button {
+  width: 15%;
+  padding: 0.6em 1.5em;
+}
+
+.hover_too {
+  width: 8em;
+  height: 1.7em;
+  -webkit-transition: width 1s, height 1s;
+  transition: width 0.5s, height 0.5s;
+  color: black;
+  opacity: 0.9;
+}
+
+.hover_too:hover {
+  /*background-color: #BFBFBF;*/
+  font-weight: 400;
+  width: 11em;
+  height: 2.5em;
+}
+
+main {
+  display: flex;
+  /*align-content: center;*/
+  margin: 0;
+  width: 65%;
+  /*flex-direction: row-reverse;*/
+}
+
+@media screen (max-width: 700px){
+  header .hamburger {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
