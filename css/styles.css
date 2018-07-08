@@ -4,6 +4,10 @@
   font-family: 'Noticia Text', serif;
 }
 
+body {
+  margin: 0;
+}
+
 /*.clearfix:after {
   display: table;
   clear: both;
@@ -12,6 +16,15 @@
 
 .content {
   padding: 90px;
+  display: flex;
+  flex-direction: row wrap;
+  width: 80%;
+}
+
+.content div {
+  padding: 1rem 3rem;
+  margin: 3rem;
+  left: -5%;
 }
 
 
@@ -141,7 +154,6 @@ main {
   /*background-image: url('../images/landing.jpg');*/
   background-size: cover;
   background: #E6E6E6;
-  width: 46%;
   display: inline-block;
   display: flex;
   flex-flow: row wrap;
@@ -151,7 +163,7 @@ main {
 
 main div {
   margin: 3em;
-  max-width: 20%;
+  max-width: 25%;
 }
 
 main h2 {
@@ -161,9 +173,18 @@ main h2 {
   text-align: center;
 }
 
+#produce {
+  margin-left: 0;
+}
+
+#vegan {
+  margin-left: 0;
+}
+
 main img {
-  height: 8em;
-  width: 11em;
+  height: 10rem;
+  width: 15rem;
+  padding-right: 4rem;
 }
 
 footer {
